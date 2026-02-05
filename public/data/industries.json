@@ -1,0 +1,17 @@
+[
+  { "id": "coffee-shops", "label": "Coffee Shops", "naicsCodes": ["722515"], "description": "Coffee & snack bars" },
+  { "id": "pet-grooming", "label": "Pet Grooming", "naicsCodes": ["812910"], "description": "Pet care services" },
+  { "id": "gyms", "label": "Gyms & Fitness", "naicsCodes": ["713940"], "description": "Fitness centers" },
+  { "id": "laundromats", "label": "Laundromats", "naicsCodes": ["812310"], "description": "Coin-operated laundries" },
+  { "id": "daycare-centers", "label": "Daycare Centers", "naicsCodes": ["624410"], "description": "Child day care services" },
+  { "id": "auto-repair", "label": "Auto Repair", "naicsCodes": ["811111"], "description": "General auto repair" },
+  { "id": "bakeries", "label": "Bakeries", "naicsCodes": ["311811"], "description": "Retail bakeries" },
+  { "id": "barbershops", "label": "Barbershops", "naicsCodes": ["812111"], "description": "Barber shops" },
+  { "id": "dentists", "label": "Dentists", "naicsCodes": ["621210"], "description": "Offices of dentists" },
+  { "id": "veterinarians", "label": "Veterinarians", "naicsCodes": ["541940"], "description": "Veterinary services" },
+  { "id": "pharmacies", "label": "Pharmacies", "naicsCodes": ["446110"], "description": "Pharmacies & drug stores" },
+  { "id": "florists", "label": "Florists", "naicsCodes": ["453110"], "description": "Florist shops" },
+  { "id": "insurance-agents", "label": "Insurance Agents", "naicsCodes": ["524210"], "description": "Insurance agencies" },
+  { "id": "real-estate", "label": "Real Estate", "naicsCodes": ["531210"], "description": "Real estate agents" },
+  { "id": "restaurants", "label": "Restaurants", "naicsCodes": ["722511"], "description": "Full-service restaurants" }
+]
