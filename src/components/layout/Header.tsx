@@ -39,7 +39,7 @@ export function Header({ onMenuClick }: HeaderProps) {
           <Button variant="ghost" size="sm">About</Button>
         </AboutDialog>
         <Button variant="ghost" size="icon" asChild>
-          <a href="https://github.com/alfonsobries/mapgap" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/adromero/mapgap" target="_blank" rel="noopener noreferrer">
             <Github className="h-4 w-4" />
             <span className="sr-only">GitHub repository</span>
           </a>

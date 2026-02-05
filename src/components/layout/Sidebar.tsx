@@ -21,7 +21,21 @@ export function Sidebar({ className, children }: SidebarProps) {
         )}
       </div>
       <div className="border-t p-3 text-center text-xs text-muted-foreground">
-        For educational use only
+        <p className="mb-3">For educational use only</p>
+        <a
+          href="mailto:digitalstructures@proton.me"
+          className="inline-flex flex-col items-center gap-1 opacity-60 transition-opacity hover:opacity-100"
+          title="Contact Digital Structures"
+        >
+          <svg viewBox="0 0 80 82" className="h-6 w-6" fill="currentColor" aria-hidden="true">
+            <rect x="0" y="0" width="80" height="22" rx="6" ry="6" />
+            <rect x="0" y="12" width="80" height="10" />
+            <rect x="0" y="30" width="80" height="22" />
+            <rect x="0" y="60" width="80" height="22" rx="6" ry="6" />
+            <rect x="0" y="60" width="80" height="10" />
+          </svg>
+          <span className="text-[10px] tracking-wider"><span className="font-bold">DIGITAL</span>STRUCTURES</span>
+        </a>
       </div>
     </aside>
   )
