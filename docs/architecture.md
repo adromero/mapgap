@@ -22,7 +22,7 @@
 | Fonts | Inter (via Google Fonts or self-hosted) | Clean, tight hierarchy, pairs well with shadcn |
 | Linting | ESLint 9 (flat config) with `@eslint/js` + `typescript-eslint` | Zero-warning policy (`--max-warnings 0`), catches bugs early. See ESLint Configuration below. |
 | TopoJSON (fallback) | topojson-client npm package | Only needed if GeoJSON exceeds 5MB after simplification. Not installed by default — see Performance Considerations. |
-| Deployment | Vercel | Free tier, CDN-backed, zero config |
+| Deployment | DigitalOcean (Server 2) + Caddy | Static files served from `/var/www/mapgap/dist`, deployed via rsync |
 
 ### Port Configuration
 
