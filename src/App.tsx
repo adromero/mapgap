@@ -9,6 +9,7 @@ import { TopCountiesList } from "@/components/sidebar/TopCountiesList";
 import { MapLegend } from "@/components/map/MapLegend";
 import { DetailPanel } from "@/components/detail/DetailPanel";
 import { MapErrorBoundary } from "@/components/map/MapErrorBoundary";
+import { WelcomeDialog } from "@/components/WelcomeDialog";
 
 const MapView = lazy(() =>
   import("@/components/map/MapView").then((m) => ({ default: m.MapView }))
@@ -85,6 +86,7 @@ function App() {
 
   return (
     <div className="flex h-screen flex-col bg-background text-foreground">
+      <WelcomeDialog />
       <Header onMenuClick={() => setMobileOpen(true)} />
 
       <MobileSheet open={mobileOpen} onOpenChange={setMobileOpen}>

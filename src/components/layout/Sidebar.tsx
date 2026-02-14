@@ -23,9 +23,11 @@ export function Sidebar({ className, children }: SidebarProps) {
       <div className="border-t p-3 text-center text-xs text-muted-foreground">
         <p className="mb-3">For educational use only</p>
         <a
-          href="mailto:digitalstructures@proton.me"
+          href="https://digitalstructures.info"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex flex-col items-center gap-1 opacity-60 transition-opacity hover:opacity-100"
-          title="Contact Digital Structures"
+          title="Digital Structures"
         >
           <svg viewBox="0 0 80 82" className="h-6 w-6" fill="currentColor" aria-hidden="true">
             <rect x="0" y="0" width="80" height="22" rx="6" ry="6" />
