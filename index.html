@@ -15,9 +15,30 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <link rel="canonical" href="https://mapgap.online/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mapgap.online/" />
+    <meta property="og:title" content="MapGap — Find Underserved Business Markets" />
+    <meta property="og:description" content="Visualize underserved business markets across US counties. Select a business category and see opportunity scores on an interactive map." />
+    <meta property="og:site_name" content="MapGap" />
+    <meta name="twitter:card" content="summary" />
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://mapgap.online/#website","name":"MapGap","url":"https://mapgap.online/","description":"Underserved U.S. business markets ranked by county."},{"@type":"WebApplication","name":"MapGap","url":"https://mapgap.online/","applicationCategory":"BusinessApplication","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}]}
+    </script>
+
+    <!-- Cloudflare Web Analytics -->
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "80f1f21dba6a4794ad57ed5805066438"}'></script>
+    <!-- End Cloudflare Web Analytics -->
   </head>
   <body>
     <div id="root"></div>
+    <noscript>
+      <p style="font-family:system-ui,sans-serif;max-width:40rem;margin:2rem auto;padding:0 1rem">
+        MapGap maps underserved business markets across U.S. counties from Census County Business Patterns data.
+        Browse opportunities by category: <a href="/markets/">underserved markets by category</a>.
+      </p>
+    </noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
